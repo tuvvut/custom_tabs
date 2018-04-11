@@ -14,5 +14,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <service
+            android:name="android.support.customtabs.PostMessageService"
+            android:exported="true"
+            android:process=":remote"/>
     </application>
 </manifest>
